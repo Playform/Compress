@@ -52,7 +52,7 @@ jobs:
             VCPKG_DISABLE_METRICS: 1
 
         steps:
-            - uses: pozil/auto-assign-issue@v2.0.1
+            - uses: pozil/auto-assign-issue@v2.1.2
               with:
                   repo-token: ${{ secrets.GITHUB_TOKEN }}
                   assignees: NikolaRHristov
